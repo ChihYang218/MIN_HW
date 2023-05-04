@@ -1,0 +1,8 @@
+app:
+  replicaCount: 3
+  image:
+    repo: yang218/min.task.nodejs
+    tag: latest
+  service:
+    type: NodePort
+    port: 80
